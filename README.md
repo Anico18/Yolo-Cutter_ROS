@@ -22,7 +22,7 @@ We need to install YOLOv3 (as its done in this GitHub: https://github.com/legged
   
     $catkin build -DCMAKE_BUILD_TYPE=Release -DCMAKE_C_COMPILER=/usr/bin/gcc-6    # Build YOLOv3 in Ubuntu18.04LTS.
   
-          $catkin build -DCMAKE_BUILD_TYPE=Release                              # Run this in case you have Ubuntu16.04.
+          $catkin build -DCMAKE_BUILD_TYPE=Release                                # Run this in case you have Ubuntu16.04.
   
     $gedit ~/.bashrc                                                              # Modify bashrc, for example: source /home/alejandro/catkin_ws/devel/setup.bash
   
